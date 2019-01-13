@@ -90,6 +90,5 @@ public class ModelagemApplication implements CommandLineRunner {
 		this.clienteRepository.saveAll(Arrays.asList(cli1));
 		this.enderecoRepository.saveAll(Arrays.asList(e1, e2));
 	}
-
 }
 
